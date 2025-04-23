@@ -1,28 +1,34 @@
 # React Vite TypeScript Firebase Authentication
 
-Это тестовый проект на React с использованием Vite, TypeScript . Проект представляет собой страницу HomePage.
+This is a test project built with React, Vite, and TypeScript. The project consists of a HomePage.
 
 ---
 
-## Содержание
+## Table of Contents
+
+
 
 ---
 
-## Что реализовано
+## What’s Implemented
 
-## Как запустить проект
 
-### 1. Установите зависимости
 
-Убедитесь, что у вас установлен Node.js (версии 18 или выше) и Yarn.
+## How to Run the Project   
+
+### Install Dependencies
+
+Ensure you have Node.js (version 18 or higher) and Yarn installed.
 
 ```bash
 yarn install
 ```
 
-## 3 Запустите проект
 
-Запустите проект с помощью команды
+
+##  2. Run the Project
+
+Start the project with the following command:
 
 ```bash
 yarn dev

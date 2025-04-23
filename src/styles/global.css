@@ -1,0 +1,36 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/LexendDeca-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: fallback;
+}
+
+:root {
+  --container-max-width-desktop: 1400px;
+  --container-max-width-desktop-s: 1100px;
+  --container-max-width-laptop-l: 980px;
+}
+
+.adaptiveNormalizedContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--container-max-width-desktop);
+}
+
+@media (width <= 1920px) {
+  .adaptiveNormalizedContainer {
+    max-width: var(--container-max-width-desktop-s);
+  }
+}
+
+@media (width <= 1440px) {
+  .adaptiveNormalizedContainer {
+    max-width: var(--container-max-width-laptop-l);
+  }
+}

@@ -1,0 +1,35 @@
+.pageStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    padding: var(--spacing-md);
+    box-sizing: border-box;
+}
+
+.pageStyle > * {
+    max-width: 1400px;
+    width: 100%;
+}
+
+@media (max-width: 390px) {
+    .pageStyle {
+        padding: var(--spacing-xs);
+    }
+
+    .pageStyle > * {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pageStyle {
+        padding: var(--spacing-sm);
+    }
+
+    .pageStyle > * {
+        max-width: 960px;
+    }
+}
