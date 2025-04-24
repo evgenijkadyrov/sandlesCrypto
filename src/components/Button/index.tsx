@@ -1,5 +1,7 @@
 import clsx from 'clsx';
+
 import { ButtonProps } from '@/components/Button/types';
+
 import styles from './styles.module.css';
 
 export function Button({

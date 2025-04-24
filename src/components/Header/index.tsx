@@ -1,7 +1,8 @@
 import { Button } from '@/components/Button';
-import styles from './styles.module.css';
 import { LOGO_TEXT, NAV_ITEMS } from '@/components/Header/config';
 import { LOGIN_BUTTON_TEXT } from '@/components/Header/config';
+
+import styles from './styles.module.css';
 
 export function Header() {
 	return (

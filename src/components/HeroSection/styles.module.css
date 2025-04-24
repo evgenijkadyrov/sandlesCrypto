@@ -1,73 +1,79 @@
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 1.5rem;
-    height: 587px;
-    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 24px;
+	height: 587px;
+	position: relative;
 }
-.titleContainer{
-    width: 1050px;
+.titleContainer {
+	width: 1050px;
 }
 .title {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 130%;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    color: #1f2937;
-    margin: 0 0 1rem 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 130%;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	color: var(--color-dark);
+	margin: 0 0 16px 0;
 }
-.subtitleContainer{
-    width: 837px;
-    height: 178px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.title span {
+	background: linear-gradient(
+		103.93deg,
+		rgba(51, 226, 255, 0.22) 10.35%,
+		rgba(106, 147, 255, 0.22) 49.75%,
+		rgba(253, 95, 178, 0.22) 90.17%
+	);
+}
+.subtitleContainer {
+	width: 837px;
+	height: 178px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .subtitle {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    color: #4b5563;
-    margin: 0 0 1.5rem 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	color: var(--color-grayLight);
+	margin: 0 0 24px 0;
 }
 .iconTopLeft {
-    position: absolute;
-    top: -20px;
-    left: -70px;
-    width: 169px;
-    height: 134px;
+	position: absolute;
+	top: -5%;
+	left: -7%;
+	width: 169px;
+	height: 134px;
 }
 
 .iconTopRight {
-    position: absolute;
-    top: 0;
-    right: -40px;
-    width: 176px;
-    height: 176px;
+	position: absolute;
+	top: 0;
+	right: -4%;
+	width: 176px;
+	height: 176px;
 }
 
 .iconBottomLeft {
-    position: absolute;
-    bottom: 60px;
-    left: 100px;
-    width: 139px;
-    height: 151px;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	width: 139px;
+	height: 151px;
 }
 
 .iconBottomRight {
-    position: absolute;
-    bottom: -20px;
-    right: 20px;
-    width: 183px;
-    height: 183px;
+	position: absolute;
+	bottom: -3.33%;
+	right: 2%;
+	width: 183px;
+	height: 183px;
 }
-

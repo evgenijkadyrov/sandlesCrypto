@@ -1,36 +1,15 @@
-import { Button } from '../Button';
-import styles from './styles.module.css';
 import { HeroSectionProps } from '@/components/HeroSection/types';
 
-type Icon = {
-	src: string;
-	alt: string;
-	className: string;
-};
+import { Button } from '../Button';
 
-const DEFAULT_TITLE = 'Welcome to Our Platform';
-const DEFAULT_SUBTITLE =
-	'Discover the best solutions for your needs with our services.';
-const DEFAULT_BUTTON_TEXT = 'Get Started';
+import {
+	DEFAULT_BUTTON_TEXT,
+	DEFAULT_SUBTITLE,
+	DEFAULT_TITLE,
+	ICONS,
+} from './config';
 
-const ICONS: Icon[] = [
-	{
-		src: '/icons/pattern.png',
-		alt: 'Pattern Icon',
-		className: styles.iconTopLeft,
-	},
-	{ src: '/icons/coin.png', alt: 'Coin Icon', className: styles.iconTopRight },
-	{
-		src: '/icons/chart.png',
-		alt: 'Chart Icon',
-		className: styles.iconBottomLeft,
-	},
-	{
-		src: '/icons/user-surprise.png',
-		alt: 'User Surprise Icon',
-		className: styles.iconBottomRight,
-	},
-];
+import styles from './styles.module.css';
 
 function HeroSection({
 	title = DEFAULT_TITLE,

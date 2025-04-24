@@ -1,6 +1,7 @@
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import Layout from '@/components/Layout';
 import { HeroSection } from '@/components/HeroSection';
+import { Layout } from '@/components/Layout';
 
 export const Home = () => {
 	return (
@@ -11,8 +12,9 @@ export const Home = () => {
 With Crypto"
 				subtitle="Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut dolor sit"
 				buttonText="Get Started"
-				onButtonClick={() => alert('Button clicked!')}
+				onButtonClick={() => {}}
 			/>
+			<Footer />
 		</Layout>
 	);
 };
