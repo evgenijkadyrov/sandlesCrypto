@@ -13,6 +13,12 @@
 	--color-grayLight: #4b5563;
 	--color-gray-background: #f3f3f3;
 	--color-gray-rating: #212326;
+	--color-blue-button: #aaf1ff;
+	--color-blue-button-text: #289ab0;
+	--color-pink-button: #ffe1ed;
+	--color-pink-button-text: #c5819c;
+	--color-green: #3eba59;
+	--color-red: #f60202;
 }
 
 .adaptiveNormalizedContainer {

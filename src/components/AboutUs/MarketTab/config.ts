@@ -1,0 +1,115 @@
+import { TabData } from '@/components/AboutUs/MarketTab/types';
+
+export const TABS: TabData[] = [
+	{
+		label: 'Active',
+		data: [
+			{
+				ticker: 'AMT',
+				name: 'Advanced Micro Tech',
+				price: 98.5,
+				percentChange: 6.58,
+				absoluteChange: 3.1,
+				iconBackgroundColor: '#FF69B4',
+			},
+			{
+				ticker: 'NVDA',
+				name: 'NVDA Corporation',
+				price: 126.6,
+				percentChange: 6.35,
+				absoluteChange: 7.1,
+				iconBackgroundColor: '#6B5BEA',
+			},
+			{
+				ticker: 'AAPL',
+				name: 'Apple Inc Company',
+				price: 120.3,
+				percentChange: 6.08,
+				absoluteChange: 8.1,
+				iconBackgroundColor: '#34C759',
+			},
+			{
+				ticker: 'PLYSTR',
+				name: 'Online Market',
+				price: 56.5,
+				percentChange: 7.58,
+				absoluteChange: 9.1,
+				iconBackgroundColor: '#FFD700',
+			},
+		],
+	},
+	{
+		label: 'Gainers',
+		data: [
+			{
+				ticker: 'AMT',
+				name: 'Advanced Micro Tech',
+				price: 98.5,
+				percentChange: 6.58,
+				absoluteChange: 3.1,
+				iconBackgroundColor: '#FF69B4',
+			},
+			{
+				ticker: 'NVDA',
+				name: 'NVDA Corporation',
+				price: 126.6,
+				percentChange: 6.35,
+				absoluteChange: 7.1,
+				iconBackgroundColor: '#6B5BEA',
+			},
+			{
+				ticker: 'AAPL',
+				name: 'Apple Inc Company',
+				price: 120.3,
+				percentChange: 6.08,
+				absoluteChange: 8.1,
+				iconBackgroundColor: '#34C759',
+			},
+			{
+				ticker: 'PLYSTR',
+				name: 'Online Market',
+				price: 56.5,
+				percentChange: 7.58,
+				absoluteChange: 9.1,
+				iconBackgroundColor: '#FFD700',
+			},
+		],
+	},
+	{
+		label: 'Losers',
+		data: [
+			{
+				ticker: 'TSLA',
+				name: 'Tesla Inc',
+				price: 180.2,
+				percentChange: -5.2,
+				absoluteChange: -9.8,
+				iconBackgroundColor: '#FF3B30',
+			},
+			{
+				ticker: 'GOOGL',
+				name: 'Alphabet Inc',
+				price: 142.3,
+				percentChange: -4.15,
+				absoluteChange: -6.2,
+				iconBackgroundColor: '#4285F4',
+			},
+			{
+				ticker: 'MSFT',
+				name: 'Microsoft Corp',
+				price: 305.7,
+				percentChange: -3.85,
+				absoluteChange: -12.3,
+				iconBackgroundColor: '#00A4EF',
+			},
+			{
+				ticker: 'META',
+				name: 'Meta Platforms',
+				price: 198.4,
+				percentChange: -4.9,
+				absoluteChange: -10.2,
+				iconBackgroundColor: '#4267B2',
+			},
+		],
+	},
+];
