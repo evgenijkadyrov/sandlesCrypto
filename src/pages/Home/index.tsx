@@ -1,4 +1,5 @@
 import { AboutUs } from '@/components/AboutUs';
+import { ClientLogo } from '@/components/ClientLogo';
 import { Counter } from '@/components/Counter';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
@@ -20,6 +21,7 @@ With Crypto"
 				<Counter />
 			</Layout>
 			<AboutUs />
+			<ClientLogo />
 			<Layout>
 				<Footer />
 			</Layout>
