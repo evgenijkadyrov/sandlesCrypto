@@ -1,3 +1,4 @@
+import { Counter } from '@/components/Counter';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
@@ -14,6 +15,7 @@ With Crypto"
 				buttonText="Get Started"
 				onButtonClick={() => {}}
 			/>
+			<Counter />
 			<Footer />
 		</Layout>
 	);
