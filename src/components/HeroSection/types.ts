@@ -4,3 +4,9 @@ export type HeroSectionProps = {
 	buttonText?: string;
 	onButtonClick?: () => void;
 };
+
+export type Icon = {
+	src: string;
+	alt: string;
+	className: string;
+};

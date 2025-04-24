@@ -1,6 +1,7 @@
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
-import Layout from '@/components/Layout';
 import { HeroSection } from '@/components/HeroSection';
+import Layout from '@/components/Layout';
 
 export const Home = () => {
 	return (
@@ -13,6 +14,7 @@ With Crypto"
 				buttonText="Get Started"
 				onButtonClick={() => alert('Button clicked!')}
 			/>
+			<Footer />
 		</Layout>
 	);
 };

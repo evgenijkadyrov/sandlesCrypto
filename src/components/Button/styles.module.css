@@ -1,77 +1,85 @@
 .button {
-    /*font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;*/
-    font-weight: 600;
-    border: none;
-    border-radius: 90px;
-    cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
+	font-weight: 600;
+	border: none;
+	border-radius: 90px;
+	cursor: pointer;
+	transition:
+		background-color 0.2s ease,
+		transform 0.1s ease;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .button:hover {
-    transform: translateY(-1px);
+	transform: translateY(-1px);
 }
 
 .button:active {
-    transform: translateY(0);
+	transform: translateY(0);
 }
 
 .button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .primary {
-    background: linear-gradient(276.71deg, #25F6FF -15.41%, #7782FF 52.42%, #FF5196 107.79%);
-    color: #ffffff;
+	background: linear-gradient(
+		276.71deg,
+		#25f6ff -15.41%,
+		#7782ff 52.42%,
+		#ff5196 107.79%
+	);
+	color: #ffffff;
 }
 
 .primary:hover {
-    background-color: #1d4ed8;
+	background-color: var(--color-blue);
 }
 
 .secondary {
-    background-color: #263238;
-    color: #ffffff;
+	background-color: var(--color-gray);
+	color: var(--color-white);
 }
 
 .secondary:hover {
-    background-color: #4b5563;
-}
-.gray {
-    background-color: #F3F3F3;
-    color: #263238;
-}
-.gray:hover {
-    background-color: #4b5563;
-}
-.white{
-    background-color: #E1E1E1;
-    color: #263238;
-}
-.white:hover {
-    background-color: #4b5563;
+	background-color: var(--color-grayLight);
 }
 
-/* Sizes */
+.gray {
+	background-color: var(--color-gray-background);
+	color: var(--color-dark);
+}
+
+.gray:hover {
+	background-color: var(--color-grayLight);
+}
+
+.white {
+	background-color: var(--color-white);
+	color: var(--color-dark);
+}
+
+.white:hover {
+	background-color: var(--color-grayLight);
+}
+
 .small {
-    font-size: 0.875rem;
-    padding: 0.25rem 1rem;
+	font-size: 14px;
+	padding: 4px 16px;
 }
 
 .medium {
-    font-size: 1rem;
-    padding: 0.5rem 1.5rem;
-    width: 140px;
-    height: 60px;
+	font-size: 16px;
+	padding: 8px 24px;
+	width: 140px;
+	height: 60px;
 }
 
 .large {
-    font-size: 1.25rem;
-    padding: 1rem 2rem;
-    width: 224px;
-    height: 80px;
+	font-size: 20px;
+	padding: 16px 32px;
+	width: 224px;
+	height: 80px;
 }
