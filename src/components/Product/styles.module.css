@@ -1,0 +1,52 @@
+.section {
+    position: relative;
+    max-width: 1400px;
+    margin: 150px auto 150px auto;
+}
+
+.container {
+    display: flex;
+    height: 942px;
+    width: 100%;
+    border-radius: 24px;
+    background: linear-gradient(101.49deg, #62D6ED -5.03%, #FFB3D1 51.28%, #FFD7A5 104.17%);
+
+}
+
+.subtitleBold {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-dark)
+
+}
+
+.patternWrapper {
+    height: 920px;
+    width: 860px;
+    position: relative;
+    top: 45%;
+    right: -45%;
+
+}
+
+.patternWrapper img {
+    object-fit: contain;
+}
+
+.headerContainer {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    max-width: 780px;
+}
+

@@ -5,6 +5,8 @@ import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { Layout } from '@/components/Layout';
+import { InvestmentSection } from '@/components/Product';
+import { Work } from '@/components/Work';
 
 export const Home = () => {
 	return (
@@ -22,6 +24,8 @@ With Crypto"
 			</Layout>
 			<AboutUs />
 			<ClientLogo />
+			<Work />
+			<InvestmentSection />
 			<Layout>
 				<Footer />
 			</Layout>
