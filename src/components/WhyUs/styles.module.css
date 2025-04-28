@@ -1,0 +1,32 @@
+.section {
+    position: relative;
+    max-width: 1400px;
+    margin: 150px auto 150px auto;
+}
+
+.title {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    max-width: 630px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin: 44px auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.colorText {
+    background: linear-gradient(103.93deg, rgba(51, 226, 255, 1) 10.35%, rgba(106, 147, 255, 1) 49.75%, rgba(253, 95, 178, 1) 90.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
