@@ -1,57 +1,56 @@
-
 .card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-gray-background);
-    border-radius: 16px;
-    padding: 32px;
-    gap: 16px;
-    width: 435px;
-    height: 354px;
-    text-align: left;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-gray-background);
+	border-radius: 16px;
+	padding: 32px;
+	gap: 16px;
+	width: 435px;
+	height: 354px;
+	text-align: left;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .icon {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-bottom: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	margin-bottom: 32px;
 }
 
 .iconImage {
-    width: 60px;
-    height: 60px;
+	width: 60px;
+	height: 60px;
 }
 
 .title {
-    font-family: Ubuntu;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 130%;
-    letter-spacing: 0;
-    text-transform: capitalize;
+	font-family: Ubuntu;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 130%;
+	letter-spacing: 0;
+	text-transform: capitalize;
 
-    color: var(--color-dark);
+	color: var(--color-dark);
 }
 
 .description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 0;
-    text-transform: capitalize;
-    color: var(--color-gray);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	color: var(--color-gray);
 }
 
 @media (max-width: 1199px) {
-    .card {
-        width: calc(50% - 16px);
-    }
+	.card {
+		width: calc(50% - 16px);
+	}
 }
 
 @media (max-width: 767px) {
-    .card {
-        width: 100%;
-    }
+	.card {
+		width: 100%;
+	}
 }

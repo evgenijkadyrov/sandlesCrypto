@@ -1,0 +1,69 @@
+.card {
+	display: flex;
+	align-items: start;
+	padding: 24px;
+	margin-bottom: 40px;
+}
+
+.icon {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex: 1;
+}
+
+.title {
+	font-family: Ubuntu;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 130%;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+
+.description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	color: var(--color-gray);
+}
+
+.description:after {
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: var(--color-gray);
+	position: relative;
+	left: 0;
+	bottom: -40px;
+}
+
+@media (max-width: 767px) {
+	.card {
+		padding: 16px;
+		gap: 16px;
+	}
+
+	.icon {
+		width: 48px;
+		height: 48px;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+
+	.description {
+		font-size: 13px;
+	}
+}

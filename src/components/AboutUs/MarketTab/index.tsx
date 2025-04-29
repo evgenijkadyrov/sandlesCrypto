@@ -11,7 +11,7 @@ export function MarketTabs() {
 	const [activeTab, setActiveTab] = useState<string>(TABS[0].label);
 
 	return (
-		<section className={styles.marketTabs}>
+		<div className={styles.marketTabs}>
 			<div className={styles.container}>
 				<div className={styles.tabs}>
 					{TABS.map((tab) => (
@@ -50,6 +50,6 @@ export function MarketTabs() {
 					)}
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 }

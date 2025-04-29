@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { Layout } from '@/components/Layout';
 import { InvestmentSection } from '@/components/Product';
+import { TraderSection } from '@/components/TraderSection';
 import { WhyUsBlock } from '@/components/WhyUs';
 import { Work } from '@/components/Work';
 
@@ -28,6 +29,7 @@ With Crypto"
 			<Work />
 			<InvestmentSection />
 			<WhyUsBlock />
+			<TraderSection />
 			<Layout>
 				<Footer />
 			</Layout>
