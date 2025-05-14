@@ -5,6 +5,7 @@ import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { HeroSection } from '@/components/HeroSection';
 import { Layout } from '@/components/Layout';
+import { MobileSection } from '@/components/MobileSection';
 import { InvestmentSection } from '@/components/Product';
 import { TestimonialSection } from '@/components/TestimonialSection';
 import { TraderSection } from '@/components/TraderSection';
@@ -32,6 +33,7 @@ With Crypto"
 			<WhyUsBlock />
 			<TraderSection />
 			<TestimonialSection />
+			<MobileSection />
 			<Layout>
 				<Footer />
 			</Layout>

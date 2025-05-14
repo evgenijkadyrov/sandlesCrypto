@@ -1,0 +1,33 @@
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--color-white);
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--color-gray);
+    text-transform: capitalize;
+}
+
+@media (max-width: 1024px) {
+    .title,
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+}
