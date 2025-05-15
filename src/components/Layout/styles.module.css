@@ -1,0 +1,35 @@
+.pageStyle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: var(--color-white);
+	padding: 24px;
+	box-sizing: border-box;
+}
+
+.pageStyle > * {
+	max-width: 1400px;
+	width: 100%;
+}
+
+@media (max-width: 390px) {
+	.pageStyle {
+		padding: 16px;
+	}
+
+	.pageStyle > * {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.pageStyle {
+		padding: 24px;
+	}
+
+	.pageStyle > * {
+		max-width: 960px;
+	}
+}
