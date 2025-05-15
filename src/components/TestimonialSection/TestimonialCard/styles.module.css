@@ -1,0 +1,108 @@
+.section {
+	background-color: var(--color-white);
+	padding: 48px 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+.card {
+	display: flex;
+	align-items: flex-start;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 16px;
+	padding: 24px;
+	gap: 24px;
+}
+
+.avatar {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	flex: 1;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nameRole {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.name {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--color-dark);
+}
+
+.role {
+	font-size: 14px;
+	color: var(--color-gray);
+}
+
+.rating {
+	display: flex;
+	gap: 2px;
+}
+
+.star {
+	font-size: 16px;
+	color: #ffd700;
+}
+
+.review {
+	font-size: 14px;
+	color: var(--color-gray);
+	line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 400px;
+		gap: 24px;
+	}
+
+	.card {
+		padding: 16px;
+		gap: 16px;
+	}
+
+	.avatar {
+		width: 40px;
+		height: 40px;
+	}
+
+	.name {
+		font-size: 16px;
+	}
+
+	.role {
+		font-size: 12px;
+	}
+
+	.star {
+		font-size: 14px;
+	}
+
+	.review {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,63 @@
+.section {
+    height: 708px;
+    width: 1920px;
+    background-image: url('public/images/share-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorText {
+    background: linear-gradient(
+            103.93deg,
+            rgba(51, 226, 255, 1) 10.35%,
+            rgba(106, 147, 255, 1) 49.75%,
+            rgba(253, 95, 178, 1) 90.17%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.inputContainer {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 510px;
+    height: 80px;
+    border-radius: 90px;
+    position: relative;
+
+}
+
+.button {
+    position: absolute;
+    top: 10px;
+    left: 360px;
+}

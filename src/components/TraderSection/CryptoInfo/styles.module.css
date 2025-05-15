@@ -1,0 +1,51 @@
+.crypto {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
+
+.name {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--color-dark);
+}
+
+.ticker {
+	font-size: 14px;
+	color: var(--color-gray);
+}
+
+.percentChange {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--color-green);
+	margin-left: auto;
+}
+
+@media (max-width: 767px) {
+	.crypto {
+		gap: 8px;
+	}
+
+	.icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.name {
+		font-size: 14px;
+	}
+
+	.ticker {
+		font-size: 12px;
+	}
+
+	.percentChange {
+		font-size: 12px;
+	}
+}
