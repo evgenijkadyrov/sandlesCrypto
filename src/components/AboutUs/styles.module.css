@@ -1,72 +1,92 @@
 .section {
-	height: 965px;
-	padding: 172px 0;
-	width: 100%;
-	background: var(--color-gray-background);
+    height: 965px;
+    padding: 172px 0;
+    width: 100%;
+    background: var(--color-gray-background);
+    @media (width <= 1440px) {
+        height: fit-content;
+    }
+    @media (width <= 1024px) {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .container {
-	margin: 0 auto;
-	width: 1400px;
-	display: flex;
-	justify-content: space-between;
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    @media (width <= 1440px) {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
 }
 
 .table {
-	width: 766px;
-	height: 551px;
-	border-radius: 50px;
+    width: 766px;
+    height: 551px;
+    border-radius: 50px;
 
-	background: linear-gradient(
-		99.52deg,
-		#a2fbff -15.68%,
-		#ccd0ff 47.81%,
-		#ffcce0 110.63%
-	);
+    background: linear-gradient(
+            99.52deg,
+            #a2fbff -15.68%,
+            #ccd0ff 47.81%,
+            #ffcce0 110.63%
+    );
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
 }
 
 @media (max-width: 390px) {
-	.container {
-		padding: 16px;
-	}
+    .container {
+        padding: 16px;
+    }
 
-	.container > * {
-		max-width: 100%;
-	}
+    .container > * {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 1024px) {
-	.container {
-		padding: 24px;
-		max-width: 960px;
-	}
+    .container {
+        padding: 24px;
+        max-width: 960px;
+    }
 }
 
 .description {
-	width: 595px;
+    width: 595px;
+    @media (width <= 1024px) {
+        width: 100%;
+        padding: 0 24px;
+    }
 }
 
 .descriptionTitle {
-	font-family: Ubuntu;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 130%;
-	letter-spacing: 0;
-	text-transform: capitalize;
-	margin-bottom: 24px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    margin-bottom: 24px;
 }
 
 .descriptionText {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	letter-spacing: 0;
-	text-transform: capitalize;
-	margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    margin-bottom: 40px;
 }
 
 .buttonContainer {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }

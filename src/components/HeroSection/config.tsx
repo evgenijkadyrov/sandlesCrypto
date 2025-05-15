@@ -1,11 +1,17 @@
+import { ColorText } from '@/components/ColorText';
 import { Icon } from '@/components/HeroSection/types';
 
 import styles from './styles.module.css';
 
-export const DEFAULT_TITLE = 'Welcome to Our Platform';
-export const DEFAULT_SUBTITLE =
-	'Discover the best solutions for your needs with our services.';
-export const DEFAULT_BUTTON_TEXT = 'Get Started';
+export const TITLE = (
+	<>
+		Build Wealth <ColorText>Automatically</ColorText> <br />
+		With Skyflex
+	</>
+);
+export const SUBTITLE =
+	'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut dolor sit';
+export const BUTTON_TEXT = 'Get Started';
 
 export const ICONS: Icon[] = [
 	{

@@ -1,0 +1,12 @@
+.colorText {
+    background: linear-gradient(
+            103.93deg,
+            rgba(51, 226, 255, 1) 10.35%,
+            rgba(106, 147, 255, 1) 49.75%,
+            rgba(253, 95, 178, 1) 90.17%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}

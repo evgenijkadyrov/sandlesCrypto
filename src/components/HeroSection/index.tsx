@@ -1,22 +1,10 @@
-import { HeroSectionProps } from '@/components/HeroSection/types';
-
 import { Button } from '../Button';
 
-import {
-	DEFAULT_BUTTON_TEXT,
-	DEFAULT_SUBTITLE,
-	DEFAULT_TITLE,
-	ICONS,
-} from './config';
+import { BUTTON_TEXT, ICONS, SUBTITLE, TITLE } from './config';
 
 import styles from './styles.module.css';
 
-function HeroSection({
-	title = DEFAULT_TITLE,
-	subtitle = DEFAULT_SUBTITLE,
-	buttonText = DEFAULT_BUTTON_TEXT,
-	onButtonClick,
-}: HeroSectionProps) {
+export function HeroSection() {
 	return (
 		<section className={styles.hero}>
 			{ICONS.map((icon) => (
@@ -28,21 +16,19 @@ function HeroSection({
 				/>
 			))}
 			<div className={styles.titleContainer}>
-				<h1 className={styles.title}>{title}</h1>
+				<h1 className={styles.title}>{TITLE}</h1>
 			</div>
 			<div className={styles.subtitleContainer}>
-				<p className={styles.subtitle}>{subtitle}</p>
+				<p className={styles.subtitle}>{SUBTITLE}</p>
 				<Button
 					variant="gray"
 					size="large"
 					className={styles.button}
-					onClick={onButtonClick}
+					onClick={() => {}}
 				>
-					{buttonText}
+					{BUTTON_TEXT}
 				</Button>
 			</div>
 		</section>
 	);
 }
-
-export { HeroSection };

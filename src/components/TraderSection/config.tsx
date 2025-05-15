@@ -1,13 +1,12 @@
+import { ColorText } from '@/components/ColorText';
 import {
 	CryptoActionCardData,
 	CryptoPriceCardData,
 } from '@/components/TraderSection/types';
 
-import styles from './styles.module.css';
-
 export const TITLE = (
 	<>
-		Become a <span className={styles.colorText}>Skyflex</span> trader in seconds
+		Become a <ColorText>Skyflex</ColorText> trader in seconds
 	</>
 );
 

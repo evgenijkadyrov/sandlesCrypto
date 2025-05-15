@@ -1,78 +1,115 @@
 .section {
-	height: 1225px;
-	padding: 172px 0;
-	width: 100%;
-	background: var(--color-gray-background);
+    min-height: 1225px;
+    padding: 172px 0;
+    width: 100%;
+    background: var(--color-gray-background);
+    @media (width <= 1024px) {
+        padding: 60px 0;
+    }
 }
 
 .container {
-	margin: 0 auto;
-	width: 1400px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (width <= 1440px) {
+        padding: 0 24px;
+        align-items: start;
+        width: 100%;
+    }
 }
 
 .cryptoTableContainer {
-	width: 522px;
-	height: 549px;
-	background: #f8f7f5;
-	border-radius: 36px;
-	box-shadow: 1px 22px 48px 0 #11111140;
-	position: absolute;
-	top: 70px;
-	left: 60px;
+    width: 522px;
+    height: 549px;
+    background: #f8f7f5;
+    border-radius: 36px;
+    box-shadow: 1px 22px 48px 0 #11111140;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+
+    @media (width <= 1024px) {
+        width: 80%;
+        height: fit-content;
+    }
 }
 
 .binanceChart {
-	position: absolute;
-	bottom: -21%;
-	left: -34%;
+    position: absolute;
+    bottom: -21%;
+    left: -34%;
+
+    @media (width <= 1920px) {
+        bottom: -10%;
+        left: -17%;
+    }
+    @media (width <= 1024px) {
+        display: none
+    }
 }
 
 .title {
-	font-family: Ubuntu;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 130%;
-	letter-spacing: 0;
-	text-transform: capitalize;
-	max-width: 630px;
-	margin-bottom: 78px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    max-width: 630px;
+    margin-bottom: 78px;
 }
 
 .colorText {
-	background: linear-gradient(
-		103.93deg,
-		rgba(51, 226, 255, 1) 10.35%,
-		rgba(106, 147, 255, 1) 49.75%,
-		rgba(253, 95, 178, 1) 90.17%
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(
+            103.93deg,
+            rgba(51, 226, 255, 1) 10.35%,
+            rgba(106, 147, 255, 1) 49.75%,
+            rgba(253, 95, 178, 1) 90.17%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .table {
-	width: 642px;
-	height: 523px;
-	border-radius: 50px;
-	position: relative;
-	background: linear-gradient(
-		99.52deg,
-		#a2fbff -15.68%,
-		#ccd0ff 47.81%,
-		#ffcce0 110.63%
-	);
+    width: 642px;
+    height: 523px;
+    border-radius: 50px;
+    position: relative;
+    background: linear-gradient(
+            99.52deg,
+            #a2fbff -15.68%,
+            #ccd0ff 47.81%,
+            #ffcce0 110.63%
+    );
+
+    @media (width <= 1440px) {
+        width: 100%;
+        height: fit-content;
+    }
 }
 
 .contentContainer {
-	display: flex;
-	justify-content: space-between;
-	gap: 94px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 94px;
+
+    @media (width <= 1440px) {
+        flex-direction: column;
+        justify-content: center;
+        gap: 160px;
+    }
+    @media (width <= 1024px) {
+        gap: 80px;
+    }
 }
 
 .description {
-	width: 100%;
-	position: relative;
+    width: 100%;
+    position: relative;
 }

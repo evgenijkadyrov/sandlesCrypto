@@ -1,4 +1,4 @@
-import { FEATURES, TITLE } from '@/components/Work/config';
+import { FEATURES, TITLE } from '@/components/Work/config.tsx';
 import { FeatureCard } from '@/components/Work/FeatureCard';
 
 import styles from './styles.module.css';

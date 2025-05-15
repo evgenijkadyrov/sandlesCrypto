@@ -1,9 +1,18 @@
 .container {
-	display: flex;
-	height: 160px;
-	column-gap: 150px;
-	row-gap: 60px;
-	flex-wrap: wrap;
-	max-width: 1200px;
-	margin: 150px auto 150px auto;
+    display: flex;
+    height: 160px;
+    column-gap: 150px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 150px auto 150px auto;
+	
+    @media (width <= 1440px) {
+        max-width: 100%;
+        padding: 0 24px;
+        height: fit-content;
+        column-gap: 36px;
+        row-gap: 36px;
+        justify-content: center;
+    }
 }
