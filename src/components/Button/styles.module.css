@@ -61,6 +61,16 @@
 	color: var(--color-dark);
 }
 
+.blue {
+	background-color: var(--color-blue-button);
+	color: var(--color-blue-button-text);
+}
+
+.pink {
+	background-color: var(--color-pink-button);
+	color: var(--color-pink-button-text);
+}
+
 .white:hover {
 	background-color: var(--color-grayLight);
 }
@@ -75,6 +85,12 @@
 	padding: 8px 24px;
 	width: 140px;
 	height: 60px;
+}
+
+.mediumL {
+	width: 195px;
+	height: 65px;
+	font-size: 18px;
 }
 
 .large {
