@@ -1,7 +1,6 @@
 .section {
     height: 708px;
-    width: 1920px;
-    background-image: url('public/images/share-background.png');
+    background-image: url('/public/images/share-background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
