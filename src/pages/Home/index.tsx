@@ -1,5 +1,6 @@
 import { AboutUs } from '@/components/AboutUs';
 import { ClientLogo } from '@/components/ClientLogo';
+import { ContactUsSection } from '@/components/ContactUsSection';
 import { Counter } from '@/components/Counter';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
@@ -36,6 +37,7 @@ With Crypto"
 			<TestimonialSection />
 			<MobileSection />
 			<NewsSection />
+			<ContactUsSection />
 			<Layout>
 				<Footer />
 			</Layout>
