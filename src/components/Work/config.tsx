@@ -1,3 +1,5 @@
+import { ColorText } from '@/components/ColorText';
+
 export const FEATURES = [
 	{
 		title: 'More Than A Typical Crypto Wallet',
@@ -22,4 +24,8 @@ export const FEATURES = [
 	},
 ];
 
-export const TITLE = 'Invest & Grow your cryptocurrency  Portfolio';
+export const TITLE = (
+	<>
+		Invest & Grow your crypto currency <ColorText>Portfolio</ColorText>{' '}
+	</>
+);

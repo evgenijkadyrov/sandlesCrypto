@@ -19,13 +19,7 @@ export const Home = () => {
 		<>
 			<Layout>
 				<Header />
-				<HeroSection
-					title="Build Wealth Automatically
-With Crypto"
-					subtitle="Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut dolor sit"
-					buttonText="Get Started"
-					onButtonClick={() => {}}
-				/>
+				<HeroSection />
 				<Counter />
 			</Layout>
 			<AboutUs />

@@ -1,23 +1,29 @@
 .container {
-	display: flex;
-	flex-direction: column;
-	max-width: 1400px;
-	margin: 150px auto 150px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 150px auto 150px auto;
 }
 
 .itemsContainer {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+
+    @media (width <= 1440px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
 }
 
 .title {
-	font-family: Ubuntu;
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 130%;
-	letter-spacing: 0;
-	text-align: center;
-	text-transform: capitalize;
-	max-width: 630px;
-	margin: 0 auto 48px auto;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 630px;
+    margin: 0 auto 48px auto;
 }

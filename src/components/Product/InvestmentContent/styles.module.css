@@ -1,72 +1,90 @@
 .content {
-	display: flex;
-	background-color: var(--color-white);
-	box-shadow: 1px 22px 48px 0 #11111140;
-	border-radius: 50px;
-	padding: 32px;
-	gap: 32px;
-	align-items: center;
-	height: 650px;
-	width: 1168px;
-	position: absolute;
-	top: 475px;
-	left: 113px;
+    display: flex;
+    background-color: var(--color-white);
+    box-shadow: 1px 22px 48px 0 #11111140;
+    border-radius: 50px;
+    padding: 32px;
+    gap: 32px;
+    align-items: center;
+    height: 650px;
+    width: 1168px;
+    position: absolute;
+    top: 475px;
+    left: 113px;
+
+    @media (width <= 1440px) {
+        height: fit-content;
+        width: 80%;
+        top: 575px;
+        left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    @media (width <= 760px) {
+        display: none;
+    }
+}
+
+.content img {
+    @media (width <= 1440px) {
+        display: none;
+    }
 }
 
 .chartImage {
-	width: 451px;
-	height: 460px;
+    width: 451px;
+    height: 460px;
 }
 
 .contentText {
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
-	margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 85px;
 }
 
 .subtitleBold {
-	font-family: Ubuntu;
-	font-weight: 700;
-	font-size: 80px;
-	line-height: 130%;
-	letter-spacing: 0;
-	text-align: center;
-	text-transform: capitalize;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .contentTitle {
-	font-size: 16px;
-	font-weight: 600;
-	color: #ffa500;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffa500;
 }
 
 .contentSubtitle {
-	font-weight: 500;
-	font-size: 22px;
-	line-height: 160%;
-	letter-spacing: 0;
-	color: var(--color-blue);
-	text-transform: capitalize;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: var(--color-blue);
+    text-transform: capitalize;
 }
 
 .contentDescription {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	letter-spacing: 0;
-	text-transform: capitalize;
-	color: var(--color-gray);
-	margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: var(--color-gray);
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-	.content {
-		flex-direction: column;
-		align-items: flex-start;
-	}
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-	.chartImage {
-		max-width: 100%;
-	}
+    .chartImage {
+        max-width: 100%;
+    }
 }
